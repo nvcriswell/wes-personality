@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #E9DBD7;
+    background-color: #EA5946;
 }
 
 .prompt {
 	display: block;
-    background-color:#EA5946;
+    background-color: white;
 	font-size: 20px;
 }
 
