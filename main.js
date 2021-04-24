@@ -11,7 +11,7 @@ var prompts = [
 	class: 'group0'
 },
 {
-	prompt: 'I do my homework and study in Exley',
+	prompt: 'I work in Exley',
 	weight: 1,
 	class: 'group1'
 },
