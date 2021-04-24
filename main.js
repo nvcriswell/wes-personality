@@ -64,6 +64,11 @@ var prompts = [
 	prompt: 'When I go out, I prefer dancing with friends than talking in small groups',
 	weight: 1,
 	class: 'group11'
+},
+{
+	prompt: 'question',
+	weight: 1,
+	class: 'group12'
 }
 
 ]
