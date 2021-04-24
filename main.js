@@ -46,8 +46,8 @@ var prompts = [
 	class: 'group7'
 },
 {
-	prompt: 'I often eat meals with a group of 5 or more friends',
-	weight: 1,
+	prompt: 'I prefer to eat with a small group of friends',
+	weight: -1,
 	class: 'group8'
 },
 {
