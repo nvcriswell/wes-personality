@@ -298,7 +298,7 @@ Introverted people are known for thinking things through before they speak, enjo
 		';
 	}
     else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
 		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
