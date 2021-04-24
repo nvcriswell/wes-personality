@@ -309,7 +309,7 @@ I like how this extrovert explains the way he/she gains energy from being around
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-		document.getElementById('results').innerHTML = '<img src="downstairs_1.jpg"><b>You have been relegated to the downstairs pergatory of uncertainty!</b><br><br>\
+		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><br><br>\
 		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
 <br><br>\
 So let’s look at how an ambivert compares.\
