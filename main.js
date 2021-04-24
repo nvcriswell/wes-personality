@@ -16,12 +16,12 @@ var prompts = [
 	class: 'group1'
 },
 {
-	prompt: 'I do my homework and study in Olin',
+	prompt: 'I consider myself aloof',
 	weight: -1,
 	class: 'group2'
 },
 {
-	prompt: 'The best parties are always on Fountain',
+	prompt: 'The best parties are on Fountain',
 	weight: -1,
 	class: 'group3'
 },
@@ -36,7 +36,7 @@ var prompts = [
 	class: 'group5'
 },
 {
-	prompt: 'I love reading',
+	prompt: 'I enjoy reading',
 	weight: -1,
 	class: 'group6'
 },
@@ -61,7 +61,7 @@ var prompts = [
 	class: 'group10'
 },
 {
-	prompt: 'When I am at a party, I prefer dancing with friends than talking',
+	prompt: 'When I go out, I prefer dancing with friends than talking in small groups',
 	weight: 1,
 	class: 'group11'
 }
