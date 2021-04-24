@@ -253,8 +253,13 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
+<<<<<<< Updated upstream
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><br>\
 		Quiet Side people are _____.\n\
+=======
+		document.getElementById('results').innerHTML = '<img src="quietside_1.jpg"> <b>You are Quiet Side!</b><br><br>\
+		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+>>>>>>> Stashed changes
 <br><br>\
 ___________\n\
 <br><br>\
@@ -271,8 +276,13 @@ ____________\
 <br><br>\
 ____________';
 	} else {
+<<<<<<< Updated upstream
 		document.getElementById('results').innerHTML = '<b>downstairs...</b><br><br>\
 		____________\
+=======
+		document.getElementById('results').innerHTML = '<img src="downstairs_1.jpg"> <b>You have been relagated to the downstairs pergatory!</b><br><br>\
+		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+>>>>>>> Stashed changes
 <br><br>\
 ____________\
 <br><br>\
