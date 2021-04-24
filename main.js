@@ -292,18 +292,18 @@ $('#submit-btn').click(function () {
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
 		document.getElementById('results').innerHTML = '<img src="quietside_1.jpg"> <b>You are Quiet Side!</b><br><br>\
-		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+		Congratulations! According to our results, you classify as a Quiet Sider. \n\
 <br><br>\
-I love this explanation of an introvert’s need to be alone:\n\
+Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \n\
 <br><br>\
-For introverts, to be alone with our thoughts is as restorative as sleeping, as nourishing as eating.\n\n\
+While Quiet Siders do enjoy going to an occassional party on Fountain every now and then, they typically stick to their smaller, more intimate gatherings. \n\n\
 <br><br>\
-Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time, needing time alone to recharge, and being upset by unexpected changes or last-minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
+Quiet Siders are known for majoring in the humanities, posting obscure photos of random things to their instagram, and being overly critical of nearly everything.\
 		';
 	}
     else if(total > 0) {
 		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><br>\
-		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
+		Congratulations! According to our results, you classify as a Loud Sider. \
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
 <br><br>\
