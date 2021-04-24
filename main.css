@@ -10,6 +10,11 @@ body {
     background-size: 200px; */
 }
 
+.list-group-item {
+    margin: 30px;
+    border-radius: 15px !important;
+}
+
 .prompt {
 	display: block;
     background-color: white;
