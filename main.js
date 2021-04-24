@@ -291,13 +291,8 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
-<<<<<<< HEAD
-		document.getElementById('results').innerHTML = '<img src="quietside_1.jpg"> <b>You are Quiet Side!</b><br><br>\
-		Congratulations! According to our results, you classify as a Quiet Sider. \n\
-=======
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
 		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
->>>>>>> 82bd68520670bd285af66a75882b08842e503526
 <br><br>\
 Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \n\
 <br><br>\
