@@ -1,43 +1,43 @@
 // A personality quiz
 
-// This is an array of objects that stores the personality trait that is prompted to the user and the weight for each prompt. 
-// If a personality trait is considered more introverted, it will have a negative weight.
-// If a personlity trait is considered more extroverted, it will have a positive weight.
+// This is an array of objects that stores the personality trait that is prompted to the user and the weight for each prompt.
+// If a personality trait is considered more QUIET SIDE, it will have a negative weight.
+// If a personlity trait is considered more LOUD SIDE, it will have a positive weight.
 
 var prompts = [
 {
-	prompt: 'I find it difficult to introduce myself to people',
-	weight: -1,
+	prompt: 'I go to the gym',
+	weight: 1,
 	class: 'group0'
 },
 {
-	prompt: 'I get so lost in my thoughts I ignore or forget my surroundings',
-	weight: -1,
+	prompt: 'I do my homework and study in Exley',
+	weight: 1,
 	class: 'group1'
 },
 {
-	prompt: 'I do not usually initiate conversations',
+	prompt: 'I do my homework and study in Olin',
 	weight: -1,
 	class: 'group2'
 },
 {
-	prompt: 'I prefer not to engage with people who seem angry or upset',
+	prompt: 'The best parties are always on Fountain',
 	weight: -1,
 	class: 'group3'
 },
 {
-	prompt: 'I choose my friends carefully',
+	prompt: 'I own a pair of Levis',
 	weight: -1,
 	class: 'group4'
 },
 {
-	prompt: 'I find it difficult to tell stories about myself',
+	prompt: 'Most of my friends are humanities majors',
 	weight: -1,
 	class: 'group5'
 },
 {
-	prompt: 'I am usually highly motivated and energetic',
-	weight: 1,
+	prompt: 'I love reading',
+	weight: -1,
 	class: 'group6'
 },
 {
@@ -46,7 +46,7 @@ var prompts = [
 	class: 'group7'
 },
 {
-	prompt: 'Being adaptable is more important than being organized',
+	prompt: 'I often eat meals with a big group of friends',
 	weight: 1,
 	class: 'group8'
 },
@@ -56,23 +56,23 @@ var prompts = [
 	class: 'group9'
 },
 {
-	prompt: 'I often do not feel I have to justify myself to people',
+	prompt: 'I like watching and playing sports',
 	weight: 1,
 	class: 'group10'
 },
 {
-	prompt: 'I would rather improvise than spend time coming up with a detailed plan',
+	prompt: 'When I am at a party, I prefer dancing with friends than talking',
 	weight: 1,
 	class: 'group11'
 }
 
 ]
 
-// This array stores all of the possible values and the weight associated with the value. 
+// This array stores all of the possible values and the weight associated with the value.
 // The stronger agreeance/disagreeance, the higher the weight on the user's answer to the prompt.
 var prompt_values = [
 {
-	value: 'Strongly Agree', 
+	value: 'Strongly Agree',
 	class: 'btn-default btn-strongly-agree',
 	weight: 5
 },
@@ -80,9 +80,9 @@ var prompt_values = [
 	value: 'Agree',
 	class: 'btn-default btn-agree',
 	weight: 3,
-}, 
+},
 {
-	value: 'Neutral', 
+	value: 'Neutral',
 	class: 'btn-default',
 	weight: 0
 },
@@ -91,7 +91,7 @@ var prompt_values = [
 	class: 'btn-default btn-disagree',
 	weight: -3
 },
-{ 
+{
 	value: 'Strongly Disagree',
 	class: 'btn-default btn-strongly-disagree',
 	weight: -5
@@ -116,7 +116,7 @@ function createPromptItems() {
 
 // For each possible value, create a button for each to be inserted into each li of the quiz
 // function createValueButtons() {
-	
+
 // 	for (var li_index = 0; li_index < prompts.length; li_index++) {
 // 		for (var i = 0; i < prompt_values.length; i++) {
 // 			var val_button = document.createElement('button');
@@ -221,13 +221,13 @@ $('#submit-btn').click(function () {
 	// For each group, find the value that is active
 	$('.results').removeClass('hide');
 	$('.results').addClass('show');
-	
+
 	if(total < 0) {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
-		document.getElementById('results').innerHTML = '<b>You are introverted!</b><br><br>\
-		Introverts are tricky to understand, since it’s so easy for us to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><br>\
+		Quiet Side people are tricky to understand, since it’s so easy for tthem to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
 <br><br>\
 I love this explanation of an introvert’s need to be alone:\n\
 <br><br>\
@@ -236,7 +236,7 @@ For introverts, to be alone with our thoughts is as restorative as sleeping, as 
 Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time, needing time alone to recharge, and being upset by unexpected changes or last-minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
 		';
 	} else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are extroverted!</b><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><br>\
 		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
