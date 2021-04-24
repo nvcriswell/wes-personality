@@ -11,7 +11,7 @@ var prompts = [
 	class: 'group0'
 },
 {
-	prompt: 'I work in Exley',
+	prompt: 'I do my homework and study in Exley',
 	weight: 1,
 	class: 'group1'
 },
@@ -129,13 +129,6 @@ var prompts = [
 	prompt: 'I enjoyed Econ101',
 	weight: 1,
 	class: 'group22'
-},
-
-
-{
-	prompt: 'I know what NESCAC stands for',
-	weight: 1,
-	class: 'group23'
 },
 
 ]
@@ -317,12 +310,11 @@ I like how this extrovert explains the way he/she gains energy from being around
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
 		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><img src="downstairs_1.jpg" class="center" width="800"><br><br>\
-		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+		If you are a downstairs eater, you most likely navigate both quiet at loud side with ease. Alternatively, you go to Usdan during peak hours and do not want to share a table with strangers. You must have some degree of confidence in your ability to balance food down the stairs and in your lap.\
 <br><br>\
 So let’s look at how an ambivert compares.\
 <br><br>\
-Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
-	}
+Downstairs eaters do not succumb to the peer pressure of defining one identity by where they choose to eat. Rather, you may even eat all your meals at summies or swings!'	}
 
 	// Hide the quiz after they submit their results
 	$('#quiz').addClass('hide');
