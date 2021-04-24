@@ -3,8 +3,13 @@
 	font-size: 20px;
 }
 
+body {
+    background-color: pink;
+}
+
 .prompt {
 	display: block;
+    background-color: red;
 	font-size: 20px;
 }
 
