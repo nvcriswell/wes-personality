@@ -298,7 +298,11 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
+<<<<<<< HEAD
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><img src="quietside_1.jpg" class="center" width="800"><br><br>\
+=======
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
+>>>>>>> e403d7ae6ff12402612bf92f94aee89f40b6037d
 		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
 <br><br>\
 Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \n\
@@ -319,10 +323,14 @@ When I am among people, I make eye contact, smile, maybe chat if there’s an op
 		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><img src="downstairs_1.jpg" class="center" width="800"><br><br>\
 		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
 <br><br>\
+<<<<<<< HEAD
 So let’s look at how an ambivert compares.\
 <br><br>\
 Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
 	}
+=======
+Downstairs eaters do not succumb to the peer pressure of defining one identity by where they choose to eat. Rather, you may even eat all your meals at summies or swings!'	}
+>>>>>>> e403d7ae6ff12402612bf92f94aee89f40b6037d
 
 	// Hide the quiz after they submit their results
 	$('#quiz').addClass('hide');
