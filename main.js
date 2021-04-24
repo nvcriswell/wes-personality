@@ -46,12 +46,12 @@ var prompts = [
 	class: 'group7'
 },
 {
-	prompt: 'I often eat meals with a big group of friends',
+	prompt: 'I often eat meals with a group of 5 or more friends',
 	weight: 1,
 	class: 'group8'
 },
 {
-	prompt: 'I care more about making sure no one gets upset than winning a debate',
+	prompt: 'I think the Wesleyan Covid guidelines are too much',
 	weight: 1,
 	class: 'group9'
 },
@@ -129,12 +129,6 @@ var prompts = [
 	prompt: 'I enjoyed Econ101',
 	weight: 1,
 	class: 'group22'
-},
-
-{
-	prompt: 'I think the Wesleyan Covid guidelines are too much',
-	weight: 1,
-	class: 'group23'
 },
 
 ]
