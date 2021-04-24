@@ -305,12 +305,16 @@ I like how this extrovert explains the way he/she gains energy from being around
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><img src="downstairs_1.jpg" class="center" width="800"><br><br>\
-		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
+		document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
+		Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
 <br><br>\
-So let’s look at how an ambivert compares.\
+MoCon was a U.F.O. shaped building built around the same time as the Foss dorms, but was torn down in 2010 after Usdan rendered it irrelevant.\
 <br><br>\
-Ambiverts exhibit both extroverted and introverted tendencies. This means that they generally enjoy being around people, but after a long time this will start to drain them. Similarly, they enjoy solitude and quiet, but not for too long. Ambiverts recharge their energy levels with a mixture of social interaction and alone time.'
+In MoCon there were no sides. Only food and community. And a big podium to make announcements. And Joni Mitchell one time.\
+<br><br>\
+If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know how you feel. With your help, we can make this happen. #savemocon\
+<img src="SS35128_35128_39043974.jpg" class="center" width="800">'
+
 	}
 
 	// Hide the quiz after they submit their results
