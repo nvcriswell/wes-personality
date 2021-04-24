@@ -5,6 +5,9 @@
 
 body {
     background-color: #EA5946;
+    background-image: url(card.png);
+    background-repeat: repeat;
+    background-size: 200px;
 }
 
 .prompt {
