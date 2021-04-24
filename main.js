@@ -66,7 +66,7 @@ var prompts = [
 	class: 'group11'
 },
 {
-	prompt: 'question',
+	prompt: 'I live or lived in WestCo',
 	weight: 1,
 	class: 'group12'
 },
@@ -89,6 +89,53 @@ var prompts = [
 	class: 'group15'
 },
 
+{
+	prompt: 'I would let someone give me a stick and poke',
+	weight: -1,
+	class: 'group16'
+},
+
+{
+	prompt: 'I want to be like my dad when I grow up',
+	weight: 1,
+	class: 'group17'
+},
+
+{
+	prompt: 'I smoke cigarettes',
+	weight: -1,
+	class: 'group18'
+},
+
+{
+	prompt: 'I eat breakfast',
+	weight: 1,
+	class: 'group19'
+},
+
+{
+	prompt: 'I came to college to reinvent myself',
+	weight: -1,
+	class: 'group20'
+},
+
+{
+	prompt: 'I know what I want to do post-grad',
+	weight: 1,
+	class: 'group21'
+},
+
+{
+	prompt: 'I enjoyed Econ101',
+	weight: 1,
+	class: 'group22'
+},
+
+{
+	prompt: 'I think the Wesleyan Covid guidelines are too much',
+	weight: 1,
+	class: 'group23'
+},
 
 ]
 
