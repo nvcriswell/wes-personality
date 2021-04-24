@@ -11,7 +11,7 @@ var prompts = [
 	class: 'group0'
 },
 {
-	prompt: 'I do my homework and study in Exley',
+	prompt: 'I work in Exley',
 	weight: 1,
 	class: 'group1'
 },
@@ -46,8 +46,8 @@ var prompts = [
 	class: 'group7'
 },
 {
-	prompt: 'I often eat meals with a group of 5 or more friends',
-	weight: 1,
+	prompt: 'I prefer to eat with a small group of friends',
+	weight: -1,
 	class: 'group8'
 },
 {
@@ -129,6 +129,13 @@ var prompts = [
 	prompt: 'I enjoyed Econ101',
 	weight: 1,
 	class: 'group22'
+},
+
+
+{
+	prompt: 'I know what NESCAC stands for',
+	weight: 1,
+	class: 'group23'
 },
 
 ]
@@ -291,8 +298,13 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
+<<<<<<< HEAD
 		document.getElementById('results').innerHTML = '<img src="quietside_1.jpg"> <b>You are Quiet Side!</b><br><br>\
 		Congratulations! According to our results, you classify as a Quiet Sider. \n\
+=======
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
+		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+>>>>>>> 82bd68520670bd285af66a75882b08842e503526
 <br><br>\
 Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \n\
 <br><br>\
@@ -309,7 +321,7 @@ I like how this extrovert explains the way he/she gains energy from being around
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><br><br>\
+		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><img src="downstairs_1.jpg" class="center" width="800"><br><br>\
 		Since introverts and extroverts are the extremes of the scale, the rest of us fall somewhere in the middle. Many of us lean one way or the other, but there are some who are quite balanced between the two tendencies. These people are called ambiverts.\
 <br><br>\
 So let’s look at how an ambivert compares.\
