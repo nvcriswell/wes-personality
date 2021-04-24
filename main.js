@@ -317,8 +317,6 @@ When I am among people, I make eye contact, smile, maybe chat if there’s an op
 		document.getElementById('results').innerHTML = '<b>You have been relegated to the downstairs pergatory of uncertainty!</b><img src="downstairs_1.jpg" class="center" width="800"><br><br>\
 		If you are a downstairs eater, you most likely navigate both quiet at loud side with ease. Alternatively, you go to Usdan during peak hours and do not want to share a table with strangers. You must have some degree of confidence in your ability to balance food down the stairs and in your lap.\
 <br><br>\
-So let’s look at how an ambivert compares.\
-<br><br>\
 Downstairs eaters do not succumb to the peer pressure of defining one identity by where they choose to eat. Rather, you may even eat all your meals at summies or swings!'	}
 
 	// Hide the quiz after they submit their results
