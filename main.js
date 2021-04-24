@@ -69,7 +69,25 @@ var prompts = [
 	prompt: 'question',
 	weight: 1,
 	class: 'group12'
-}
+},
+
+{
+	prompt: 'I often buy second-hand or vintage clothes',
+	weight: -1,
+	class: 'group13'
+},
+
+{
+	prompt: 'I prefer smoking to drinking',
+	weight: -1,
+	class: 'group14'
+},
+
+{
+	prompt: 'I use Snapchat',
+	weight: 1,
+	class: 'group15'
+},
 
 ]
 
