@@ -227,7 +227,7 @@ $('#submit-btn').click(function () {
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><br>\
-		Quiet Side people are tricky to understand, since it’s so easy for tthem to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
 <br><br>\
 I love this explanation of an introvert’s need to be alone:\n\
 <br><br>\
