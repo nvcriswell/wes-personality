@@ -309,7 +309,7 @@ Quiet Siders are known for majoring in the humanities, posting obscure photos of
 		';
 	}
     else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="freeman.jpeg" class="center" width="800"><br><br>\
 		Congratulations! According to our results, you classify as a Loud Sider. \
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
