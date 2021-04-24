@@ -131,6 +131,13 @@ var prompts = [
 	class: 'group22'
 },
 
+
+{
+	prompt: 'I know what NESCAC stands for',
+	weight: 1,
+	class: 'group23'
+},
+
 ]
 
 // This array stores all of the possible values and the weight associated with the value.
