@@ -299,8 +299,6 @@ $('#submit-btn').click(function () {
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><img src="quietside_1.jpg" class="center" width="800"><br><br>\
-		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\
-<br><br>\
 Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \
 <br><br>\
 While Quiet Siders do enjoy going to an occassional party on Fountain every now and then, they typically stick to their smaller, more intimate gatherings. \
