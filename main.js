@@ -326,7 +326,8 @@ In MoCon there were no sides. Only food and community. And a big podium to make 
 If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know how you feel. With your help, we can make this happen.\
 <img src="SS35128_35128_39043974.jpg" class="center" width="800">\
 <br><br>\
-#savemocon'
+#savemocon';
+}
 	// Hide the quiz after they submit their results
 	$('#quiz').addClass('hide');
 	$('#submit-btn').addClass('hide');
