@@ -309,21 +309,21 @@ Quiet Siders are known for majoring in the humanities, posting obscure photos of
 		';
 	}
     else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="freeman.jpeg" class="center" width="800"><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><img src="freeman.jpeg" class="center" width="800"><br><br>\
 		Congratulations! According to our results, you classify as a Loud Sider. \
 <br><br>\
 I like how this extrovert explains the way he/she gains energy from being around other people:\
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
+document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><br><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
 Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
 <br><br>\
 MoCon was a U.F.O. shaped building built around the same time as the Foss dorms, but was torn down in 2010 after Usdan rendered it irrelevant.\
 <br><br>\
 In MoCon there were no sides. Only food and community. And a big podium to make announcements. And Joni Mitchell one time.\
 <br><br>\
-If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know how you feel. With your help, we can make this happen.\
+If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know how you feel. With your help, we can make this happen.<br>\
 <img src="SS35128_35128_39043974.jpg" class="center" width="800">\
 <br><br>\
 #savemocon';
