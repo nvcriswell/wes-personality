@@ -70,56 +70,68 @@ var prompts = [
 	weight: 1,
 	class: 'group12'
 },
+
 {
 	prompt: 'I often buy second-hand or vintage clothes',
 	weight: -1,
 	class: 'group13'
 },
+
 {
 	prompt: 'I prefer smoking to drinking',
 	weight: -1,
 	class: 'group14'
 },
+
 {
 	prompt: 'I use Snapchat',
 	weight: 1,
 	class: 'group15'
 },
+
 {
 	prompt: 'I would let someone give me a stick and poke',
 	weight: -1,
 	class: 'group16'
 },
+
 {
 	prompt: 'I want to be like my dad when I grow up',
 	weight: 1,
 	class: 'group17'
 },
+
 {
 	prompt: 'I smoke cigarettes',
 	weight: -1,
 	class: 'group18'
 },
+
 {
 	prompt: 'I eat breakfast',
 	weight: 1,
 	class: 'group19'
 },
+
 {
 	prompt: 'I came to college to reinvent myself',
 	weight: -1,
 	class: 'group20'
 },
+
 {
 	prompt: 'I know what I want to do post-grad',
 	weight: 1,
 	class: 'group21'
 },
+
 {
 	prompt: 'I enjoyed Econ101',
 	weight: 1,
 	class: 'group22'
 },
+
+
 {
 	prompt: 'I know what NESCAC stands for',
 	weight: 1,
@@ -286,38 +298,28 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
-<<<<<<< Updated upstream
-		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
-		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
-=======
-		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><br>\
-		Quiet Side people are _____.\n\
->>>>>>> Stashed changes
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><img src="quietside_1.jpg" class="center" width="800"><br><br>\
+		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\
 <br><br>\
-I love this explanation of an introvert’s need to be alone:\n\
+Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \
 <br><br>\
-For introverts, to be alone with our thoughts is as restorative as sleeping, as nourishing as eating.\n\n\
+While Quiet Siders do enjoy going to an occassional party on Fountain every now and then, they typically stick to their smaller, more intimate gatherings. \
 <br><br>\
-Introverted people are known for thinking things through before they speak, enjoying small, close groups of friends and one-on-one time, needing time alone to recharge, and being upset by unexpected changes or last-minute surprises. Introverts are not necessarily shy and may not even avoid social situations, but they will definitely need some time alone or just with close friends or family after spending time in a big crowd.\
+Quiet Siders are known for majoring in the humanities, posting obscure photos of random things to their instagram, and being overly critical of nearly everything.\
 		';
 	}
     else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
-		If you’re looking to witness a world record attempt in cup stacking by the basketball team, loud side is the place to be!\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="freeman.jpeg" class="center" width="800"><br><br>\
+		Congratulations! According to our results, you classify as a Loud Sider. \
 <br><br>\
-Loud side inhabitants are a rowdy crowd often populated by athletes and athlete adjacents.\
+I like how this extrovert explains the way he/she gains energy from being around other people:\
 <br><br>\
-Loud siders are often found bouncing between exley, fountain and freeman, likely wearing something wesleyan themed. Loud siders can be known to identify their friends based on the sport they play or by using the term “narp.” While they may never be going pro, loud siders show intense dedication to their D3 craft and all around school spirit.';
+When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
-<<<<<<< Updated upstream
-		document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
-		Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
+document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
+Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
 <br><br>\
 MoCon was a U.F.O. shaped building built around the same time as the Foss dorms, but was torn down in 2010 after Usdan rendered it irrelevant.\
-=======
-		document.getElementById('results').innerHTML = '<b>downstairs...</b><br><br>\
-		____________\
->>>>>>> Stashed changes
 <br><br>\
 In MoCon there were no sides. Only food and community. And a big podium to make announcements. And Joni Mitchell one time.\
 <br><br>\
@@ -325,9 +327,6 @@ If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know
 <img src="SS35128_35128_39043974.jpg" class="center" width="800">\
 <br><br>\
 #savemocon'
-
-	}
-
 	// Hide the quiz after they submit their results
 	$('#quiz').addClass('hide');
 	$('#submit-btn').addClass('hide');
