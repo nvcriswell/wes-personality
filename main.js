@@ -1,4 +1,4 @@
-// A personality quiz
+// A Wes personality quiz
 
 // This is an array of objects that stores the personality trait that is prompted to the user and the weight for each prompt.
 // If a personality trait is considered more QUIET SIDE, it will have a negative weight.
@@ -186,21 +186,7 @@ function createPromptItems() {
 	}
 }
 
-// For each possible value, create a button for each to be inserted into each li of the quiz
-// function createValueButtons() {
 
-// 	for (var li_index = 0; li_index < prompts.length; li_index++) {
-// 		for (var i = 0; i < prompt_values.length; i++) {
-// 			var val_button = document.createElement('button');
-// 			var val_text = document.createTextNode(prompt_values[i].value);
-
-// 			val_button.setAttribute('class', 'value-btn btn ' + prompt_values[i].class);
-// 			val_button.appendChild(val_text);
-
-// 			document.getElementsByClassName('prompt')[li_index].appendChild(val_button);
-// 		}
-// 	}
-// }
 function createValueButtons() {
 	for (var li_index = 0; li_index < prompts.length; li_index++) {
 		var group = document.createElement('div');
@@ -295,35 +281,35 @@ $('#submit-btn').click(function () {
 	$('.results').addClass('show');
 
 	if(total < 0) {
-		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
-		// console.log(document.getElementById('intro-bar').style.width);
-		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
-		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><img src="quietside_1.jpg" class="center" width="800"><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><img src="quietside_1.jpg" class="center" width="500"><br><br>\
 Quiet Side individuals are typically much more reserved. Quiet Siders generally prefer to smoke cigarettes, drink wine, and read philosophy with their friends. They tend to dress in more alternative, baggier clothing. \
-<br><br>\
+<br>\
 While Quiet Siders do enjoy going to an occassional party on Fountain every now and then, they typically stick to their smaller, more intimate gatherings. \
-<br><br>\
+<br>\
 Quiet Siders are known for majoring in the humanities, posting obscure photos of random things to their instagram, and being overly critical of nearly everything.\
 		';
 	}
     else if(total > 0) {
-		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><img src="freeman.jpeg" class="center" width="800"><br><br>\
+		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><br><img src="freeman.jpeg" class="center" width="500"><br>\
 		Congratulations! According to our results, you classify as a Loud Sider. \
-<br><br>\
-I like how this extrovert explains the way he/she gains energy from being around other people:\
-<br><br>\
-When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
+<br>\
+If you’re looking to witness a world record attempt in cup stacking by the basketball team, loud side is the place to be!\
+<br>\
+Loud side inhabitants are a rowdy crowd often populated by athletes and athlete adjacents.\
+<br>\
+Loud siders are often found bouncing between exley, fountain and freeman, likely wearing something wesleyan themed. Loud siders can be known to identify their friends based on the sport they play or by using the term “narp.” While they may never be going pro, loud siders show intense dedication to their D3 craft and all around school spirit.\
+ ';
 	} else {
-document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><br><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
+document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><br><img src="SS35128_35128_41560526.jpeg" class="center" width="500"><br>\
 Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
-<br><br>\
+<br>\
 MoCon was a U.F.O. shaped building built around the same time as the Foss dorms, but was torn down in 2010 after Usdan rendered it irrelevant.\
-<br><br>\
+<br>\
 In MoCon there were no sides. Only food and community. And a big podium to make announcements. And Joni Mitchell one time.\
-<br><br>\
+<br>\
 If you believe in bringing back MoCon, email mroth@wesleyan.edu and let him know how you feel. With your help, we can make this happen.<br>\
-<img src="SS35128_35128_39043974.jpg" class="center" width="800">\
-<br><br>\
+<img src="SS35128_35128_39043974.jpg" class="center" width="500">\
+<br>\
 #savemocon';
 }
 	// Hide the quiz after they submit their results
