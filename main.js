@@ -299,11 +299,11 @@ Introverted people are known for thinking things through before they speak, enjo
 	}
     else if(total > 0) {
 		document.getElementById('results').innerHTML = '<b>You are Loud Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
-		On the opposite side of the coin, people who are extroverted are energized by people. They usually enjoy spending time with others, as this is how they recharge from time spent alone focusing or working hard.\
+		If you’re looking to witness a world record attempt in cup stacking by the basketball team, loud side is the place to be!\
 <br><br>\
-I like how this extrovert explains the way he/she gains energy from being around other people:\
+Loud side inhabitants are a rowdy crowd often populated by athletes and athlete adjacents.\
 <br><br>\
-When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
+Loud siders are often found bouncing between exley, fountain and freeman, likely wearing something wesleyan themed. Loud siders can be known to identify their friends based on the sport they play or by using the term “narp.” While they may never be going pro, loud siders show intense dedication to their D3 craft and all around school spirit.';
 	} else {
 		document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
 		Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
