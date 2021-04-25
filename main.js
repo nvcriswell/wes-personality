@@ -126,7 +126,6 @@ var prompts = [
 	class: 'group23'
 },
 
-
 ]
 
 // This array stores all of the possible values and the weight associated with the value.
@@ -287,8 +286,13 @@ $('#submit-btn').click(function () {
 		// document.getElementById('intro-bar').style.width = ((total / 60) * 100) + '%';
 		// console.log(document.getElementById('intro-bar').style.width);
 		// document.getElementById('intro-bar').innerHTML= ((total / 60) * 100) + '%';
+<<<<<<< Updated upstream
 		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><img src="quietside_1.jpg" class="center" width="800"><br><br>\
 		Quiet Side people are tricky to understand, since it’s so easy for them to assume that introversion is the same as being shy, when, in fact, introverts are simply people who find it tiring to be around other people.\n\
+=======
+		document.getElementById('results').innerHTML = '<b>You are Quiet Side!</b><br><br>\
+		Quiet Side people are _____.\n\
+>>>>>>> Stashed changes
 <br><br>\
 I love this explanation of an introvert’s need to be alone:\n\
 <br><br>\
@@ -305,10 +309,15 @@ I like how this extrovert explains the way he/she gains energy from being around
 <br><br>\
 When I am among people, I make eye contact, smile, maybe chat if there’s an opportunity (like being stuck in a long grocery store line). As an extrovert, that’s a small ‘ping’ of energy, a little positive moment in the day.';
 	} else {
+<<<<<<< Updated upstream
 		document.getElementById('results').innerHTML = '<b>You Are MoCon Side...</b><img src="SS35128_35128_41560526.jpeg" class="center" width="800"><br><br>\
 		Before Usdan, there was no "Loud Side" or "Quiet Side." Only MoCon. You would have loved it.\
 <br><br>\
 MoCon was a U.F.O. shaped building built around the same time as the Foss dorms, but was torn down in 2010 after Usdan rendered it irrelevant.\
+=======
+		document.getElementById('results').innerHTML = '<b>downstairs...</b><br><br>\
+		____________\
+>>>>>>> Stashed changes
 <br><br>\
 In MoCon there were no sides. Only food and community. And a big podium to make announcements. And Joni Mitchell one time.\
 <br><br>\
